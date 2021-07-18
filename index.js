@@ -66,7 +66,7 @@ const paperSizes = {
   1: calcDimensions(2245, 3179),
   2: calcDimensions(1587, 2245),
   3: calcDimensions(1123, 1587),
-  4: calcDimensions(794, 1100),
+  4: calcDimensions(794, 1000),
   letter: calcDimensions(816, 1054),
   5: calcDimensions(559, 794),
   6: calcDimensions(397, 559),
