@@ -51,6 +51,12 @@ button[disabled] {
   .input-fields {
     display: none;
   }
+  title {
+    font-family: "Fira Sans", sans-serif;
+    display: block;
+    text-align: center;
+    padding: 1mm;
+  }
   body {
     margin: 0mm;
   }
