@@ -4,7 +4,7 @@
     <meta charset="UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Number Generator</title>
+    <title>Puzzle 1</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
@@ -18,6 +18,8 @@
             <ul id="number-form-errors" class="errors bg-white hidden">
             </ul>
         <span>X</span>
+		<label for="total-pages">Enter number of pages</label>
+		<input type="number" id="total-pages" min="1" max="200" placeholder="Pages #" required/>
         <label for="min">Minimum</label>
         <input type="number" id="min" min="0" max="999" placeholder="Enter Start #" required/>
         <label for="max">Maximum</label>
@@ -40,7 +42,7 @@
         <button id="submit">
         GENERATE
         </button>
-        <button id="print" onclick="window.print()" disabled>PRINT</button>
+        <button id="print" class="button-print-or-save-document">PRINT</button>
     </form>
       </div>
       <h1 id="instructions">Find The Numbers: Start at <span id="num-start"></span> and finish at <span id="num-end">!</span></h1>
