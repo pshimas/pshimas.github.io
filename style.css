@@ -56,7 +56,8 @@ button[disabled] {
     margin: 0mm;
   }
   
-    title {
+    .test_pat {
+	font-size: 10pt;	
     font-family: calibri, sans-serif;
     display: block;
     text-align: center;
